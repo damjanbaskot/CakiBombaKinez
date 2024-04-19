@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NodePage from './components/NodeCard/NodePage';
+import NodePage from './Components/NodeCard/NodePage';
 import AppNavbar from './Components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
