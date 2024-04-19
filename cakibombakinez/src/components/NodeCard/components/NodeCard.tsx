@@ -7,9 +7,9 @@ interface NodeCardProps {
 	description: string;
 }
 
-const NodeCard: React.FC<NodeCardProps> = ( props ) => {
+const NodeCard: React.FC<NodeCardProps> = (props) => {
 	return (
-		<Card>
+		<Card className="mb-3">
 			<Card.Header>{props.name}</Card.Header>
 			<Card.Body>
 				<Card.Text>
