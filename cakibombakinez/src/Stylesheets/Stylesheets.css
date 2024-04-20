@@ -1,13 +1,10 @@
-/* Crypto Stylesheet - Black Motif */
-
-/* Colors */
 :root {
-    --primary-color: #3b5998; /* Facebook blue */
-    --secondary-color: #00acee; /* Twitter blue */
-    --success-color: #28a745; /* Green */
-    --error-color: #dc3545; /* Red */
-    --text-color: #fff; /* White */
-    --background-color: #000; /* Black */
+    --primary-color: #3b5998;
+    --secondary-color: #00acee;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --text-color: #fff;
+    --background-color: #000;
 }
 
 /* Global Styles */
@@ -48,8 +45,8 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #2d4373; /* Darker shade of primary color */
-    border-color: #2d4373; /* Darker shade of primary color */
+    background-color: #2d4373;
+    border-color: #2d4373;
 }
 
 .btn-danger {
@@ -58,6 +55,6 @@ body {
 }
 
 .btn-danger:hover {
-    background-color: #c82333; /* Darker shade of error color */
-    border-color: #c82333; /* Darker shade of error color */
+    background-color: #c82333;
+    border-color: #c82333;
 }
