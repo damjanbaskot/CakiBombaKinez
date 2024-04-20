@@ -1,10 +1,13 @@
 import {Button, Container, Form} from 'react-bootstrap';
 import {useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 
 const SignupPage = () => {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [discordName, setDiscordName] = useState('');
+
+	const navigate = useNavigate();
 
 	const handleSignup = async () => {
 		try {
