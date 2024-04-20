@@ -1,6 +1,7 @@
 import {Button, Container, Form} from 'react-bootstrap';
 import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
+import '../Stylesheets/Stylesheets.css'
 
 const SignupPage = () => {
 	const [email, setEmail] = useState('');

@@ -15,7 +15,7 @@ const NodeCard: React.FC<NodeCardProps> = (props) => {
 				<Card.Text>
 					<strong style={{ color: '#28a745' }}>Price:</strong> {props.price}
 				</Card.Text>
-				<Card.Text>
+				<Card.Text className={'fs-6'}>
 					<strong style={{ color: '#dc3545' }}>Description:</strong> {props.description}
 				</Card.Text>
 			</Card.Body>

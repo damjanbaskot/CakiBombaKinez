@@ -1,3 +1,6 @@
+/* Crypto Stylesheet - Black Motif */
+
+/* Colors */
 :root {
     --primary-color: #3b5998; /* Facebook blue */
     --secondary-color: #00acee; /* Twitter blue */
@@ -7,6 +10,7 @@
     --background-color: #000; /* Black */
 }
 
+/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
@@ -19,6 +23,7 @@ body {
     padding: 20px;
 }
 
+/* Form Styles */
 .form-control {
     border: 1px solid #ced4da;
     border-radius: 5px;
