@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #3b5998; /* Facebook blue */
+    --secondary-color: #00acee; /* Twitter blue */
+    --success-color: #28a745; /* Green */
+    --error-color: #dc3545; /* Red */
+    --text-color: #fff; /* White */
+    --background-color: #000; /* Black */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.25);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #2d4373; /* Darker shade of primary color */
+    border-color: #2d4373; /* Darker shade of primary color */
+}
+
+.btn-danger {
+    background-color: var(--error-color);
+    border-color: var(--error-color);
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker shade of error color */
+    border-color: #c82333; /* Darker shade of error color */
+}

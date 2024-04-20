@@ -9,14 +9,14 @@ interface NodeCardProps {
 
 const NodeCard: React.FC<NodeCardProps> = (props) => {
 	return (
-		<Card className="mb-3">
+		<Card className="mb-3" style={{ backgroundColor: '#333', color: '#fff' }}>
 			<Card.Header>{props.name}</Card.Header>
 			<Card.Body>
 				<Card.Text>
-					<strong>Price:</strong> {props.price}
+					<strong style={{ color: '#28a745' }}>Price:</strong> {props.price}
 				</Card.Text>
 				<Card.Text>
-					<strong>Description:</strong> {props.description}
+					<strong style={{ color: '#dc3545' }}>Description:</strong> {props.description}
 				</Card.Text>
 			</Card.Body>
 			<Card.Footer>
