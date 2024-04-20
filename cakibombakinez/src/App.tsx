@@ -1,22 +1,19 @@
 import React from 'react';
 import './App.css';
-import NodePage from './Components/NodeCard/NodePage';
-import AppNavbar from './Components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HeroSection from './Components/Hero/Hero';
-import AboutSection from './Components/AboutSection/AboutSection';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import MainPage from './Pages/MainPage';
+import SignupPage from './signup/Signup';
 
 function App() {
 	return (
-		<div className="App">
-			<div className="App-header wrapper ">
-				<AppNavbar />
-				<HeroSection />
-				<AboutSection />
-				<NodePage />
-			</div>
-		</div>
-	);
+		<BrowserRouter>
+			<Routes>
+				<Route path={'/'} element={<MainPage />}/>
+				<Route path={'/signup'} element={<SignupPage />}/>
+			</Routes>
+		</BrowserRouter>
+	)
 }
 
 export default App;
